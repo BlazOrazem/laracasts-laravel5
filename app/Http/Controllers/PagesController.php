@@ -1,8 +1,6 @@
 <?php namespace App\Http\Controllers;
 
-use Illuminate\Routing\Controller;
-
-class PagesController extends Controller {
+class PagesController {
 
 	public function index()
     {

@@ -1,10 +1,9 @@
 <?php namespace App\Http\Controllers;
 
-use Illuminate\Routing\Controller;
 use Illuminate\Http\Request;
 use App\Song;
 
-class SongsController extends Controller {
+class SongsController {
 
     public function __construct(Song $song)
     {
