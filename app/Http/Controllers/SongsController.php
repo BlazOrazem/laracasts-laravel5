@@ -22,7 +22,7 @@ class SongsController extends Controller {
     }
 
     /**
-     * @param $slug
+     * @param Song $song
      * @return View
      */
     public function show(Song $song)
@@ -33,7 +33,7 @@ class SongsController extends Controller {
     }
 
     /**
-     * @param $slug
+     * @param Song $song
      * @return View
      */
     public function edit(Song $song)

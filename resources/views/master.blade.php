@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>My First Learning App</title>
+    <title>Body Count Fan Club</title>
     <meta name="description" content="learn.app">
     <meta name="author" content="blaz@orazem.info">
 
@@ -17,7 +17,7 @@
 <body>
     <div class="container">
 
-    <h1>Justin Bieber Official Fan Club</h1>
+    <h1>Body Count Fan Club</h1>
 
     @yield('content')
 
