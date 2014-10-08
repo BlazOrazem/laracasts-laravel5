@@ -1,6 +1,7 @@
 <?php namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+
 use App\Song;
 
 class SongsController {
@@ -11,6 +12,8 @@ class SongsController {
     }
 
     /**
+     * Display a listing of the songs.
+     *
      * @return View
      */
     public function index()
@@ -21,18 +24,45 @@ class SongsController {
     }
 
     /**
-     * @param Song $song
+     * Show the form for creating a new song.
+     *
+     * @return View
+     */
+    public function create()
+    {
+        return view('songs.create');
+    }
+
+    /**
+     * Store a newly created song in storage.
+     *
+     * @param  CreateSongRequest $request
+     * @param  Song $song
+     * @return Redirector
+     */
+    public function store(CreateSongRequest $request, Song $song)
+    {
+        $song->create($request->all());
+
+        return redirect()->route('songs.index');
+    }
+
+    /**
+     * Display the specified song.
+     *
+     * @param  Song $song
      * @return View
      */
     public function show(Song $song)
     {
-//        $song = $this->song->whereSlug($slug)->first();
-
+        //$song = $this->song->whereSlug($slug)->first();
         return view('songs.show', compact('song'));
     }
 
     /**
-     * @param Song $song
+     * Show the form for editing the specified song.
+     *
+     * @param  Song $song
      * @return View
      */
     public function edit(Song $song)
@@ -40,16 +70,34 @@ class SongsController {
         return view('songs.edit', compact('song'));
     }
 
+    /**
+     * Update the specified resource in storage.
+     *
+     * @param  Song $song
+     * @param  Request $request
+     * @return Redirector
+     */
     public function update(Song $song, Request $request)
     {
         $song->fill($request->input())->save();
 
-//        $song = $this->song->whereSlug($slug)->first();
-//        $song->fill(['title' => $request->get('title')])->save();
-//        $song->title = $reguest->get('title');
-//        $song->save();
+        //$song = $this->song->whereSlug($slug)->first();
+        //$song->fill(['title' => $request->get('title')])->save();
+        //$song->title = $reguest->get('title');
+        //$song->save();
 
-        return redirect('songs');
+        return redirect()->route('songs.index');
+    }
+
+    /**
+     * Remove the specified song from storage.
+     *
+     * @param  int  $id
+     * @return Response
+     */
+    public function destroy($id)
+    {
+        //
     }
 
 }

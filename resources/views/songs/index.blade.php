@@ -2,11 +2,13 @@
 
 @section('content')
 
+    <p><br />{!! link_to_route('songs.create', 'Create a song') !!}<br /></p>
+
     <ul>
     @foreach ($songs as $song)
         <li>
-            <strong><a href="/songs/{{$song->slug}}/edit/">EDIT</a> :: </strong>
-            <a href="/songs/{{$song->slug}}">{{$song->title}}</a>
+            <strong>{!! link_to_route('songs.edit', 'EDIT', [$song->slug]) !!} :: </strong>
+            {!! link_to_route('songs.show', $song->title, [$song->slug]) !!}
         </li>
     @endforeach
     </ul>
