@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "03f28b59bd28d02e350a3f316ea1dd22",
+    "hash": "53566f814667a54b7349434a40f7db31",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -399,6 +399,50 @@
                 "tokenizer"
             ],
             "time": "2013-10-09 04:20:00"
+        },
+        {
+            "name": "laravel/elixir",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/elixir.git",
+                "reference": "fdaa831b9fb2559c7fd146be0b0ff9a2cad80c01"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/elixir/zipball/fdaa831b9fb2559c7fd146be0b0ff9a2cad80c01",
+                "reference": "fdaa831b9fb2559c7fd146be0b0ff9a2cad80c01",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jeffrey Way",
+                    "email": "jeffrey@laracasts.com"
+                },
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylorotwell@gmail.com"
+                }
+            ],
+            "time": "2014-10-11 00:30:36"
         },
         {
             "name": "laravel/framework",
@@ -1689,12 +1733,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/security-core.git",
-                "reference": "cd35c9337766e0f0f14f2968371e1922d93ea880"
+                "reference": "e9030aec262e7d697e2f66d7f47db6164cc360c0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/security-core/zipball/cd35c9337766e0f0f14f2968371e1922d93ea880",
-                "reference": "cd35c9337766e0f0f14f2968371e1922d93ea880",
+                "url": "https://api.github.com/repos/symfony/security-core/zipball/e9030aec262e7d697e2f66d7f47db6164cc360c0",
+                "reference": "e9030aec262e7d697e2f66d7f47db6164cc360c0",
                 "shasum": ""
             },
             "require": {
@@ -1742,7 +1786,7 @@
             ],
             "description": "Symfony Security Component - Core Library",
             "homepage": "http://symfony.com",
-            "time": "2014-09-29 07:38:25"
+            "time": "2014-10-10 16:59:52"
         },
         {
             "name": "symfony/translation",
