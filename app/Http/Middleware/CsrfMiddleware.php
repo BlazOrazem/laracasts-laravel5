@@ -11,8 +11,10 @@ class CsrfMiddleware implements Middleware {
 	 *
 	 * @param  \Illuminate\Http\Request  $request
 	 * @param  \Closure  $next
-	 * @return mixed
-	 */
+     * @return mixed
+     *
+     * @throws TokenMismatchException
+     */
 	public function handle($request, Closure $next)
 	{
 		if ($request->method() == 'GET' || $this->tokensMatch($request))

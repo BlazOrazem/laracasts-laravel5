@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5f5958ad6196e0cdc418daf1776442cc",
+    "hash": "4fb1fdb0da86c65d8be3cafacc10d98b",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -406,12 +406,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/elixir.git",
-                "reference": "fdaa831b9fb2559c7fd146be0b0ff9a2cad80c01"
+                "reference": "a89d19137dd6a544c774ad83f6ff24b019a87de8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/elixir/zipball/fdaa831b9fb2559c7fd146be0b0ff9a2cad80c01",
-                "reference": "fdaa831b9fb2559c7fd146be0b0ff9a2cad80c01",
+                "url": "https://api.github.com/repos/laravel/elixir/zipball/a89d19137dd6a544c774ad83f6ff24b019a87de8",
+                "reference": "a89d19137dd6a544c774ad83f6ff24b019a87de8",
                 "shasum": ""
             },
             "require": {
@@ -442,7 +442,7 @@
                     "email": "taylorotwell@gmail.com"
                 }
             ],
-            "time": "2014-10-11 00:30:36"
+            "time": "2014-10-11 23:23:09"
         },
         {
             "name": "laravel/framework",
@@ -450,12 +450,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "c091f3f39e3dae11c430e104767cc5bad3a32c57"
+                "reference": "cba9bfb4aaa9e1d1ae23546afa748351ed580ad2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/c091f3f39e3dae11c430e104767cc5bad3a32c57",
-                "reference": "c091f3f39e3dae11c430e104767cc5bad3a32c57",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/cba9bfb4aaa9e1d1ae23546afa748351ed580ad2",
+                "reference": "cba9bfb4aaa9e1d1ae23546afa748351ed580ad2",
                 "shasum": ""
             },
             "require": {
@@ -560,7 +560,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2014-10-10 15:39:37"
+            "time": "2014-10-11 18:17:52"
         },
         {
             "name": "league/flysystem",
