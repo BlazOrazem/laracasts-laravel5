@@ -1,6 +1,6 @@
 <?php namespace App\Http\Controllers\Auth;
 
-use Illuminate\Contracts\Auth\Authenticator;
+use Illuminate\Contracts\Auth\Guard;
 
 use App\Http\Requests\Auth\LoginRequest;
 use App\Http\Requests\Auth\RegisterRequest;
@@ -12,19 +12,19 @@ use App\Http\Requests\Auth\RegisterRequest;
 class AuthController {
 
 	/**
-	 * The authenticator implementation.
+	 * The Guard implementation.
 	 *
-	 * @var Authenticator
+	 * @var Guard
 	 */
 	protected $auth;
 
 	/**
 	 * Create a new authentication controller instance.
 	 *
-	 * @param  Authenticator  $auth
+	 * @param  Guard  $auth
 	 * @return void
 	 */
-	public function __construct(Authenticator $auth)
+	public function __construct(Guard $auth)
 	{
 		$this->auth = $auth;
 	}
@@ -86,7 +86,7 @@ class AuthController {
 		}
 
 		return redirect('/login')->withErrors([
-			'email' => 'The credentials you entered did not match our records. Try again?',
+			'email' => 'These credentials do not match our records.',
 		]);
 	}
 
