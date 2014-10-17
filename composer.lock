@@ -273,12 +273,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/html.git",
-                "reference": "8b44c77a3b648af05fee2a8aed28d3058542dcc8"
+                "reference": "b04be9a84be0d6f7552b281ad6b9e2795218fe56"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/html/zipball/8b44c77a3b648af05fee2a8aed28d3058542dcc8",
-                "reference": "8b44c77a3b648af05fee2a8aed28d3058542dcc8",
+                "url": "https://api.github.com/repos/illuminate/html/zipball/b04be9a84be0d6f7552b281ad6b9e2795218fe56",
+                "reference": "b04be9a84be0d6f7552b281ad6b9e2795218fe56",
                 "shasum": ""
             },
             "require": {
@@ -311,7 +311,7 @@
                     "email": "taylorotwell@gmail.com"
                 }
             ],
-            "time": "2014-10-01 19:15:37"
+            "time": "2014-10-16 14:38:30"
         },
         {
             "name": "ircmaxell/password-compat",
@@ -406,12 +406,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "16748c7987a3971b437092079482d68c2301d3be"
+                "reference": "ba916851321b9233cb56a0fb1deb41043b7df5fb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/16748c7987a3971b437092079482d68c2301d3be",
-                "reference": "16748c7987a3971b437092079482d68c2301d3be",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/ba916851321b9233cb56a0fb1deb41043b7df5fb",
+                "reference": "ba916851321b9233cb56a0fb1deb41043b7df5fb",
                 "shasum": ""
             },
             "require": {
@@ -518,7 +518,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2014-10-14 17:59:11"
+            "time": "2014-10-16 18:05:12"
         },
         {
             "name": "league/flysystem",
@@ -526,12 +526,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "0bc9f7ef20ed7c01400a9ba4cc5b84c36f8aaeec"
+                "reference": "30d2bedf2ff4b20645e708d3113bd6e788267ce7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/0bc9f7ef20ed7c01400a9ba4cc5b84c36f8aaeec",
-                "reference": "0bc9f7ef20ed7c01400a9ba4cc5b84c36f8aaeec",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/30d2bedf2ff4b20645e708d3113bd6e788267ce7",
+                "reference": "30d2bedf2ff4b20645e708d3113bd6e788267ce7",
                 "shasum": ""
             },
             "require": {
@@ -550,7 +550,8 @@
                 "phpunit/phpunit": "~4.0",
                 "predis/predis": "~1.0",
                 "rackspace/php-opencloud": "~1.10.0",
-                "sabre/dav": "~2.0.2"
+                "sabre/dav": "~2.0.2",
+                "tedivm/stash": "~0.12.0"
             },
             "suggest": {
                 "aws/aws-sdk-php": "Allows you to use AWS S3 storage",
@@ -561,7 +562,8 @@
                 "phpseclib/phpseclib": "Allows SFTP server storage",
                 "predis/predis": "Allows you to use Predis for caching",
                 "rackspace/php-opencloud": "Allows you to use Rackspace Cloud Files",
-                "sabre/dav": "Enables WebDav support"
+                "sabre/dav": "Enables WebDav support",
+                "tedivm/stash": "Allows you to use Stash as cache implementation"
             },
             "type": "library",
             "extra": {
@@ -598,7 +600,7 @@
                 "sftp",
                 "storage"
             ],
-            "time": "2014-10-04 07:01:23"
+            "time": "2014-10-11 16:17:17"
         },
         {
             "name": "monolog/monolog",
@@ -1810,12 +1812,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/vlucas/phpdotenv.git",
-                "reference": "e783b688cf5bc29a4ffd1b79c92eb4dd2a2e2237"
+                "reference": "56c252d48dce336da97926591aed71805203815b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/e783b688cf5bc29a4ffd1b79c92eb4dd2a2e2237",
-                "reference": "e783b688cf5bc29a4ffd1b79c92eb4dd2a2e2237",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/56c252d48dce336da97926591aed71805203815b",
+                "reference": "56c252d48dce336da97926591aed71805203815b",
                 "shasum": ""
             },
             "require": {
@@ -1853,7 +1855,7 @@
                 "env",
                 "environment"
             ],
-            "time": "2014-10-14 15:06:44"
+            "time": "2014-10-16 14:50:21"
         }
     ],
     "packages-dev": [
@@ -2161,12 +2163,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "f75e6b2e0764bcf4faa5082f4b60d5e7cf0959bb"
+                "reference": "d41bd0e74b72d2681d385219e6f06f1bc7820eb5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/f75e6b2e0764bcf4faa5082f4b60d5e7cf0959bb",
-                "reference": "f75e6b2e0764bcf4faa5082f4b60d5e7cf0959bb",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/d41bd0e74b72d2681d385219e6f06f1bc7820eb5",
+                "reference": "d41bd0e74b72d2681d385219e6f06f1bc7820eb5",
                 "shasum": ""
             },
             "require": {
@@ -2224,7 +2226,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2014-10-07 09:30:07"
+            "time": "2014-10-16 16:32:44"
         },
         {
             "name": "phpunit/phpunit-mock-objects",

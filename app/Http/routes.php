@@ -17,7 +17,7 @@ $router->bind('songs', function($slug)
 });
 
 $router->resource('songs', 'SongsController', [
-    'except' => ['destroy']
+//    'except' => ['destroy']
 ]);
 
 //$router->get('songs', ['as' => 'songs_path', 'uses' => 'SongsController@index']);

@@ -1,11 +1,11 @@
 <?php namespace App\Http\Controllers;
 
+use Illuminate\Routing\Controller;
 use Illuminate\Http\Request;
 use App\Http\Requests\CreateSongRequest;
-
 use App\Song;
 
-class SongsController {
+class SongsController extends Controller {
 
     public function __construct(Song $song)
     {
@@ -93,12 +93,14 @@ class SongsController {
     /**
      * Remove the specified song from storage.
      *
-     * @param  int  $id
+     * @param  Song $song
      * @return Response
      */
-    public function destroy($id)
+    public function destroy(Song $song)
     {
-        //
+        $song->delete();
+
+        return redirect()->route('songs.index');
     }
 
 }
