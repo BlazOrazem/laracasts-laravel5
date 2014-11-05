@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "88356abe3dcb281ec830ac5f3dadb829",
+    "hash": "562ca26bf0a1dadcb61119e512e1d7f3",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -526,12 +526,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "30d2bedf2ff4b20645e708d3113bd6e788267ce7"
+                "reference": "2b8e053fb4ce1aa9146dfcb36002c378be29b03c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/30d2bedf2ff4b20645e708d3113bd6e788267ce7",
-                "reference": "30d2bedf2ff4b20645e708d3113bd6e788267ce7",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/2b8e053fb4ce1aa9146dfcb36002c378be29b03c",
+                "reference": "2b8e053fb4ce1aa9146dfcb36002c378be29b03c",
                 "shasum": ""
             },
             "require": {
@@ -541,6 +541,7 @@
                 "aws/aws-sdk-php": "~2.4",
                 "barracuda/copy": "~1.1.4",
                 "dropbox/dropbox-sdk": "~1.1.1",
+                "ext-fileinfo": "*",
                 "guzzlehttp/guzzle": "~4.0",
                 "league/event": "~1.0",
                 "league/phpunit-coverage-listener": "~1.1",
@@ -557,6 +558,7 @@
                 "aws/aws-sdk-php": "Allows you to use AWS S3 storage",
                 "barracuda/copy": "Allows you to use Copy.com storage",
                 "dropbox/dropbox-sdk": "Allows you to use Dropbox storage",
+                "ext-fileinfo": "Required for MimeType",
                 "guzzlehttp/guzzle": "Allows you to use http files (reading only)",
                 "league/event": "Required for EventableFilesystem",
                 "phpseclib/phpseclib": "Allows SFTP server storage",
@@ -600,7 +602,7 @@
                 "sftp",
                 "storage"
             ],
-            "time": "2014-10-11 16:17:17"
+            "time": "2014-10-17 14:21:58"
         },
         {
             "name": "monolog/monolog",
@@ -608,12 +610,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "940cbe15abe36924e5693abb585215bb322686a7"
+                "reference": "b738a6c04c5fcc9e304d72f287e25256439fd13e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/940cbe15abe36924e5693abb585215bb322686a7",
-                "reference": "940cbe15abe36924e5693abb585215bb322686a7",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/b738a6c04c5fcc9e304d72f287e25256439fd13e",
+                "reference": "b738a6c04c5fcc9e304d72f287e25256439fd13e",
                 "shasum": ""
             },
             "require": {
@@ -672,7 +674,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2014-10-04 15:43:06"
+            "time": "2014-10-17 18:12:45"
         },
         {
             "name": "nesbot/carbon",
@@ -1504,12 +1506,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/HttpKernel.git",
-                "reference": "26d82e307861f7d0612aa84a2a5fa07dbd0dd3bc"
+                "reference": "2014d64562ceae90018ca2457f7c6d8ed093aceb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/HttpKernel/zipball/26d82e307861f7d0612aa84a2a5fa07dbd0dd3bc",
-                "reference": "26d82e307861f7d0612aa84a2a5fa07dbd0dd3bc",
+                "url": "https://api.github.com/repos/symfony/HttpKernel/zipball/2014d64562ceae90018ca2457f7c6d8ed093aceb",
+                "reference": "2014d64562ceae90018ca2457f7c6d8ed093aceb",
                 "shasum": ""
             },
             "require": {
@@ -1570,7 +1572,7 @@
             ],
             "description": "Symfony HttpKernel Component",
             "homepage": "http://symfony.com",
-            "time": "2014-10-08 20:39:21"
+            "time": "2014-10-17 07:38:59"
         },
         {
             "name": "symfony/process",
@@ -2163,12 +2165,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "d41bd0e74b72d2681d385219e6f06f1bc7820eb5"
+                "reference": "cd4014775069d7d39d20f617037c2c0f9b4bc25b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/d41bd0e74b72d2681d385219e6f06f1bc7820eb5",
-                "reference": "d41bd0e74b72d2681d385219e6f06f1bc7820eb5",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/cd4014775069d7d39d20f617037c2c0f9b4bc25b",
+                "reference": "cd4014775069d7d39d20f617037c2c0f9b4bc25b",
                 "shasum": ""
             },
             "require": {
@@ -2226,7 +2228,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2014-10-16 16:32:44"
+            "time": "2014-10-17 09:28:50"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
